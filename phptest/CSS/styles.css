@@ -1,0 +1,98 @@
+/************************** Général *****************************/
+body {
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: rgb(248, 203, 173);
+}
+
+/************************** header *****************************/
+
+.titreHeader {
+    color: rgb(54, 63, 185);
+    text-align: center;
+}
+
+/************************** Liste *****************************/
+
+.ligne {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
+.bloc {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.titre {
+    color: cornflowerblue;
+    
+}
+
+.bouton {
+    text-decoration: none;
+    border: 2px rgb(207, 46, 46) solid;
+    color: rgb(56, 40, 201);
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    margin-right: 4vw;
+    padding: 1vw;
+    border-radius: 10%;
+    margin-top: 2vh;
+}
+
+.boutonAdd {
+    text-decoration: none;
+    border: 2px rgb(207, 46, 46) solid;
+    color: rgb(56, 40, 201);
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    padding: 1vw;
+    border-radius: 10%;
+    text-align: center;
+    margin: 5vw;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}
+
+/************************** footer *****************************/
+footer {
+    display: block;
+    text-align: center;
+    border-top: #f2a16a 20px solid;
+}
+.footer {
+    padding: 3vh;
+}
+
+/*********************** FORMULAIRE*****************/
+.formulaire{
+    align-content: center;
+    line-height: 3em;
+    border-radius: 10px;
+    color: black;
+    border: 1px solid black;
+    padding: 2vw; 
+}
+
+label
+{
+	display: block;
+	width: 10vw;
+    float: left;
+    margin-left: 30vw;
+    font-size: 1.2em;
+}
+input
+{
+    width: 25vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+#submit {
+    margin-left: 45vw;
+    margin-top: 5vh;
+}
